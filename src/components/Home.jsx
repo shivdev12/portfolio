@@ -1,4 +1,5 @@
 import "../styles/Home.css"
+import hero from "../assets/images/hero.png"
 
 export default function Home(){
     return(
@@ -13,7 +14,7 @@ export default function Home(){
                     </span>
                 </div>
                 <div className="main-img-area">
-                    <img src="/images/hero.png" alt="profile" />
+                    <img src={hero} alt="profile" />
                 </div>
             </div>
 

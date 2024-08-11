@@ -1,4 +1,5 @@
 import "../styles/Projects.css";
+import project from "../assets/images/project.png"
 
 export default function Projects() {
     return (
@@ -9,7 +10,7 @@ export default function Projects() {
             <div className="project-one">
                 <div className="one-img-area interactable">
                     <a href="https://https://github.com/ShivamYadav-12/netflix-gpt">
-                        <img src="/images/project.png" alt="project-pic" />
+                        <img src={project} alt="project-pic" />
                     </a>
                 </div>
 
